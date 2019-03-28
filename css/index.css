@@ -173,6 +173,11 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .nav-header h1 {
+    margin-bottom: 2%;
+  }
+}
 .nav-header nav {
   display: flex;
   justify-content: space-around;
@@ -193,7 +198,6 @@ img {
 }
 @media (max-width: 500px) {
   .nav-header {
-    background-color: red;
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -206,7 +210,19 @@ img {
 .top-text {
   border-bottom: 1px dashed #C0C0C0;
 }
-.destination .btn {
+@media (max-width: 500px) {
+  .content-pick {
+    background-color: red;
+    display: flex;
+    justify-content: stretch;
+  }
+}
+@media (max-width: 500px) {
+  .content-pick .destination {
+    width: 80%;
+  }
+}
+.content-pick .destination .btn {
   width: 110px;
   display: flex;
   justify-content: center;
@@ -231,6 +247,12 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .home .content-section {
+    background-color: red;
+    flex-direction: column;
+  }
 }
 .home .content-section .text-content {
   width: 48%;
@@ -271,4 +293,18 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 80%;
+  }
+}
+.home .content-pick .btn {
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background: #17A2B8;
+  border-radius: 7px;
+  color: #FFFFFF;
 }

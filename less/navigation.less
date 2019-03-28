@@ -3,6 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    h1 {
+        @media @phone {
+        margin-bottom: 2%;
+    } 
+    }
 
     nav {
         display: flex;
@@ -23,7 +29,6 @@
         }
     }
     @media @phone {
-        background-color: red;
         display: flex;
         flex-direction: column;
         width: 90%;
@@ -40,8 +45,19 @@ img {
     border-bottom: 1px dashed @silver;
     
 }
+.content-pick {
 
-.destination {
+    @media @phone {
+        background-color: red;
+        display: flex;
+        justify-content: stretch;
+        // width: 80%;
+    }
+
+    .destination {
+    @media @phone {
+        width: 80%;
+    }
     .btn {
         width: 110px;
         display: flex;
@@ -53,3 +69,4 @@ img {
     }
 }
  
+}
