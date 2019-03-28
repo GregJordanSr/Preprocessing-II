@@ -168,6 +168,46 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-header nav {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+}
+.nav-header nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.nav-header nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+@media (max-width: 500px) {
+  .nav-header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+img {
+  border-top: 1px dashed #C0C0C0;
+  margin: 2.5% 0 2.5%;
+}
+.top-text {
+  border-bottom: 1px dashed #C0C0C0;
+}
+.destination .btn {
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background: #17A2B8;
+  border-radius: 7px;
+  color: #FFFFFF;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;

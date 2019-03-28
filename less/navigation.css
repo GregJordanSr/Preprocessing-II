@@ -1,0 +1,29 @@
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-header nav {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+}
+.nav-header nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.nav-header nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+img {
+  border-top: 1px dashed ;
+  margin: 2.5% 0 2.5%;
+}
+.top-text {
+  border-bottom: 1px dashed lightgray;
+}
+.destination .btn {
+  padding: 2%;
+  background-color: #fff;
+}

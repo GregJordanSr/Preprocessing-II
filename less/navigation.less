@@ -1,1 +1,55 @@
 // Navigation Styles here
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 45%;
+
+        @media @phone {
+            width: 90%;
+        }
+
+        a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+                text-decoration-color: black;
+            }
+        }
+    }
+    @media @phone {
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        
+    }
+}
+
+img {
+    border-top: 1px dashed @silver;
+    margin: 2.5% 0 2.5%;
+}
+
+.top-text {
+    border-bottom: 1px dashed @silver;
+    
+}
+
+.destination {
+    .btn {
+        width: 110px;
+        display: flex;
+        justify-content: center;    
+        padding: 2%;
+        background: @eastern-blue;
+        border-radius: 7px;
+        color: @white;
+    }
+}
+ 
