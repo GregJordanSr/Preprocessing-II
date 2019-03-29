@@ -1,1 +1,81 @@
 // Navigation Styles here
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    h1 {
+        @media @phone {
+        margin-bottom: 2%;
+    } 
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 45%;
+
+        @media @phone {
+            width: 90%;
+        }
+
+        a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+                text-decoration-color: black;
+            }
+        }
+    }
+    @media @phone {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        
+    }
+}
+<<<<<<< HEAD
+ 
+.top-text {
+    border-bottom: 1px dashed @silver;
+    margin-top: 1rem;
+    
+}
+=======
+
+img {
+    border-top: 1px dashed @silver;
+    margin: 2.5% 0 2.5%;
+}
+
+.top-text {
+    border-bottom: 1px dashed @silver;
+    
+}
+.content-pick {
+
+    @media @phone {
+        background-color: red;
+        display: flex;
+        justify-content: stretch;
+        // width: 80%;
+    }
+
+    .destination {
+    @media @phone {
+        width: 80%;
+    }
+    .btn {
+        width: 110px;
+        display: flex;
+        justify-content: center;    
+        padding: 2%;
+        background: @eastern-blue;
+        border-radius: 7px;
+        color: @white;
+    }
+}
+ 
+}
+>>>>>>> 8f6dce3518aeb4fcd6a77e19365f42a86baa8753
